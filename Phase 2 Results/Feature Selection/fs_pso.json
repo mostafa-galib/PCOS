@@ -1,0 +1,28 @@
+{
+  "features": [
+    "Pulse_bpm",
+    "Hb_gdl",
+    "Cycle_length_days",
+    "Abortions",
+    "BetaHCG_I",
+    "FSH",
+    "Waist_inch",
+    "WHR",
+    "TSH",
+    "PRG",
+    "HairGrowth",
+    "SkinDarkening",
+    "HairLoss",
+    "Pimples",
+    "FastFood",
+    "RegExercise",
+    "Follicle_L",
+    "Follicle_R",
+    "BG_12",
+    "BG_15",
+    "BG_16",
+    "BG_17"
+  ],
+  "n": 22,
+  "cv_mcc_5fold": 0.7877653216486302
+}

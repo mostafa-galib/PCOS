@@ -1,0 +1,2310 @@
+{
+  "PSO": {
+    "n_features": 22,
+    "best_mcc": 0.7828768253984417,
+    "best_trial": 15,
+    "params": {
+      "hidden_dim": 32,
+      "dropout": 0.4041521218793736,
+      "lr": 0.0014835151621091199,
+      "weight_decay": 0.00045455550610998925,
+      "k_neighbours": 12,
+      "n2v_dim": 64,
+      "optimiser": "adamw",
+      "scheduler": "cosine"
+    },
+    "all_trials": [
+      {
+        "number": 0,
+        "value": 0.7204805617155807,
+        "params": {
+          "hidden_dim": 64,
+          "dropout": 0.3,
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "k_neighbours": 10,
+          "n2v_dim": 64,
+          "optimiser": "adam",
+          "scheduler": "plateau"
+        }
+      },
+      {
+        "number": 1,
+        "value": 0.7113229999859264,
+        "params": {
+          "hidden_dim": 64,
+          "dropout": 0.3394633936788146,
+          "lr": 0.0002051338263087451,
+          "weight_decay": 2.0511104188433963e-05,
+          "k_neighbours": 5,
+          "n2v_dim": 16,
+          "optimiser": "adamw",
+          "scheduler": "plateau"
+        }
+      },
+      {
+        "number": 2,
+        "value": 0.7695855070181473,
+        "params": {
+          "hidden_dim": 128,
+          "dropout": 0.3099025726528951,
+          "lr": 0.0007309539835912913,
+          "weight_decay": 3.8234752246751835e-05,
+          "k_neighbours": 14,
+          "n2v_dim": 64,
+          "optimiser": "adamw",
+          "scheduler": "cosine"
+        }
+      },
+      {
+        "number": 3,
+        "value": 0.7225999432844045,
+        "params": {
+          "hidden_dim": 128,
+          "dropout": 0.16820964947491662,
+          "lr": 0.00013492834268013249,
+          "weight_decay": 0.000790261954970823,
+          "k_neighbours": 20,
+          "n2v_dim": 16,
+          "optimiser": "adam",
+          "scheduler": "cosine"
+        }
+      },
+      {
+        "number": 4,
+        "value": 0.770434414276254,
+        "params": {
+          "hidden_dim": 64,
+          "dropout": 0.36500891374159283,
+          "lr": 0.0004201672054372534,
+          "weight_decay": 0.00010968217207529509,
+          "k_neighbours": 13,
+          "n2v_dim": 32,
+          "optimiser": "adam",
+          "scheduler": "cosine"
+        }
+      },
+      {
+        "number": 5,
+        "value": 0.7732510707469733,
+        "params": {
+          "hidden_dim": 64,
+          "dropout": 0.23013213230530574,
+          "lr": 0.0005989003672254305,
+          "weight_decay": 3.488976654890367e-05,
+          "k_neighbours": 18,
+          "n2v_dim": 64,
+          "optimiser": "adamw",
+          "scheduler": "cosine"
+        }
+      },
+      {
+        "number": 6,
+        "value": 0.7439628887258517,
+        "params": {
+          "hidden_dim": 32,
+          "dropout": 0.42618457138193366,
+          "lr": 0.002592475660475161,
+          "weight_decay": 0.0002870875348195468,
+          "k_neighbours": 17,
+          "n2v_dim": 32,
+          "optimiser": "adam",
+          "scheduler": "plateau"
+        }
+      },
+      {
+        "number": 7,
+        "value": 0.711537043070499,
+        "params": {
+          "hidden_dim": 128,
+          "dropout": 0.35502298854208525,
+          "lr": 0.0059487468132197715,
+          "weight_decay": 8.798929749689021e-05,
+          "k_neighbours": 6,
+          "n2v_dim": 32,
+          "optimiser": "adam",
+          "scheduler": "plateau"
+        }
+      },
+      {
+        "number": 8,
+        "value": 0.7568125689798874,
+        "params": {
+          "hidden_dim": 64,
+          "dropout": 0.3545641645055122,
+          "lr": 0.0004253162363790873,
+          "weight_decay": 0.0001040258761588385,
+          "k_neighbours": 19,
+          "n2v_dim": 64,
+          "optimiser": "adam",
+          "scheduler": "plateau"
+        }
+      },
+      {
+        "number": 9,
+        "value": 0.7526236605161061,
+        "params": {
+          "hidden_dim": 32,
+          "dropout": 0.44858423607508713,
+          "lr": 0.004048966222584676,
+          "weight_decay": 2.3612399244412595e-05,
+          "k_neighbours": 19,
+          "n2v_dim": 64,
+          "optimiser": "adam",
+          "scheduler": "cosine"
+        }
+      },
+      {
+        "number": 10,
+        "value": 0.7138222944389747,
+        "params": {
+          "hidden_dim": 64,
+          "dropout": 0.1023988731823269,
+          "lr": 0.002467377537662448,
+          "weight_decay": 1.0862348973937137e-05,
+          "k_neighbours": 9,
+          "n2v_dim": 64,
+          "optimiser": "adamw",
+          "scheduler": "cosine"
+        }
+      },
+      {
+        "number": 11,
+        "value": 0.7355889904400941,
+        "params": {
+          "hidden_dim": 64,
+          "dropout": 0.207012655679192,
+          "lr": 0.0003588760729800959,
+          "weight_decay": 5.366897720228223e-05,
+          "k_neighbours": 14,
+          "n2v_dim": 32,
+          "optimiser": "adamw",
+          "scheduler": "cosine"
+        }
+      },
+      {
+        "number": 12,
+        "value": 0.7576869407016169,
+        "params": {
+          "hidden_dim": 64,
+          "dropout": 0.2383612877464661,
+          "lr": 0.0010366743441358333,
+          "weight_decay": 0.00021655131532784206,
+          "k_neighbours": 15,
+          "n2v_dim": 32,
+          "optimiser": "adamw",
+          "scheduler": "cosine"
+        }
+      },
+      {
+        "number": 13,
+        "value": 0.7509217884684414,
+        "params": {
+          "hidden_dim": 64,
+          "dropout": 0.4862778301767896,
+          "lr": 0.0004303834255594906,
+          "weight_decay": 0.00022270414378132143,
+          "k_neighbours": 11,
+          "n2v_dim": 32,
+          "optimiser": "adamw",
+          "scheduler": "cosine"
+        }
+      },
+      {
+        "number": 14,
+        "value": 0.7427148530964751,
+        "params": {
+          "hidden_dim": 64,
+          "dropout": 0.263954246552892,
+          "lr": 0.00020090553963201057,
+          "weight_decay": 4.988470859557419e-05,
+          "k_neighbours": 16,
+          "n2v_dim": 16,
+          "optimiser": "adam",
+          "scheduler": "cosine"
+        }
+      },
+      {
+        "number": 15,
+        "value": 0.7828768253984417,
+        "params": {
+          "hidden_dim": 32,
+          "dropout": 0.4041521218793736,
+          "lr": 0.0014835151621091199,
+          "weight_decay": 0.00045455550610998925,
+          "k_neighbours": 12,
+          "n2v_dim": 64,
+          "optimiser": "adamw",
+          "scheduler": "cosine"
+        }
+      },
+      {
+        "number": 16,
+        "value": 0.7550284877214712,
+        "params": {
+          "hidden_dim": 32,
+          "dropout": 0.12952970246998735,
+          "lr": 0.0016225407577238487,
+          "weight_decay": 0.0009096015328440264,
+          "k_neighbours": 8,
+          "n2v_dim": 64,
+          "optimiser": "adamw",
+          "scheduler": "cosine"
+        }
+      },
+      {
+        "number": 17,
+        "value": 0.7733367006391698,
+        "params": {
+          "hidden_dim": 32,
+          "dropout": 0.4196154753386481,
+          "lr": 0.0018140837457893864,
+          "weight_decay": 0.0004527134465647538,
+          "k_neighbours": 12,
+          "n2v_dim": 64,
+          "optimiser": "adamw",
+          "scheduler": "cosine"
+        }
+      },
+      {
+        "number": 18,
+        "value": 0.7416170630244059,
+        "params": {
+          "hidden_dim": 32,
+          "dropout": 0.4117772967102288,
+          "lr": 0.007917897852165177,
+          "weight_decay": 0.00048361297964535764,
+          "k_neighbours": 12,
+          "n2v_dim": 64,
+          "optimiser": "adamw",
+          "scheduler": "cosine"
+        }
+      },
+      {
+        "number": 19,
+        "value": 0.7473277777560801,
+        "params": {
+          "hidden_dim": 32,
+          "dropout": 0.4860930071516779,
+          "lr": 0.00162324445307421,
+          "weight_decay": 0.0004201174609679355,
+          "k_neighbours": 8,
+          "n2v_dim": 64,
+          "optimiser": "adamw",
+          "scheduler": "cosine"
+        }
+      },
+      {
+        "number": 20,
+        "value": 0.752126691347489,
+        "params": {
+          "hidden_dim": 32,
+          "dropout": 0.3927699693032331,
+          "lr": 0.0036212324598248868,
+          "weight_decay": 0.0005345679453520484,
+          "k_neighbours": 11,
+          "n2v_dim": 64,
+          "optimiser": "adamw",
+          "scheduler": "cosine"
+        }
+      },
+      {
+        "number": 21,
+        "value": 0.7738369413664833,
+        "params": {
+          "hidden_dim": 32,
+          "dropout": 0.45263087059169543,
+          "lr": 0.0007369794064860304,
+          "weight_decay": 0.0001564099146074649,
+          "k_neighbours": 17,
+          "n2v_dim": 64,
+          "optimiser": "adamw",
+          "scheduler": "cosine"
+        }
+      },
+      {
+        "number": 22,
+        "value": 0.7797761926773914,
+        "params": {
+          "hidden_dim": 32,
+          "dropout": 0.4492569714087489,
+          "lr": 0.001496578443175398,
+          "weight_decay": 0.00016254890877482662,
+          "k_neighbours": 16,
+          "n2v_dim": 64,
+          "optimiser": "adamw",
+          "scheduler": "cosine"
+        }
+      },
+      {
+        "number": 23,
+        "value": 0.7632627118952497,
+        "params": {
+          "hidden_dim": 32,
+          "dropout": 0.45848379847908294,
+          "lr": 0.0008695615534221881,
+          "weight_decay": 0.00017075843273460625,
+          "k_neighbours": 16,
+          "n2v_dim": 64,
+          "optimiser": "adamw",
+          "scheduler": "cosine"
+        }
+      },
+      {
+        "number": 24,
+        "value": 0.7802302018327362,
+        "params": {
+          "hidden_dim": 32,
+          "dropout": 0.45744469373881547,
+          "lr": 0.001453154095007585,
+          "weight_decay": 0.00017481585047374854,
+          "k_neighbours": 17,
+          "n2v_dim": 64,
+          "optimiser": "adamw",
+          "scheduler": "cosine"
+        }
+      },
+      {
+        "number": 25,
+        "value": 0.7665210509090836,
+        "params": {
+          "hidden_dim": 32,
+          "dropout": 0.3774432702604079,
+          "lr": 0.0013120607888530398,
+          "weight_decay": 0.00028204804864628564,
+          "k_neighbours": 15,
+          "n2v_dim": 16,
+          "optimiser": "adamw",
+          "scheduler": "cosine"
+        }
+      },
+      {
+        "number": 26,
+        "value": 0.7602535803836294,
+        "params": {
+          "hidden_dim": 32,
+          "dropout": 0.49773385424299366,
+          "lr": 0.0024074227342779815,
+          "weight_decay": 0.0003049285163810013,
+          "k_neighbours": 17,
+          "n2v_dim": 64,
+          "optimiser": "adamw",
+          "scheduler": "plateau"
+        }
+      },
+      {
+        "number": 27,
+        "value": 0.7537674356697041,
+        "params": {
+          "hidden_dim": 32,
+          "dropout": 0.3991190497663517,
+          "lr": 0.003977011167149506,
+          "weight_decay": 0.0001529790852568749,
+          "k_neighbours": 20,
+          "n2v_dim": 64,
+          "optimiser": "adamw",
+          "scheduler": "cosine"
+        }
+      },
+      {
+        "number": 28,
+        "value": 0.7692129853619878,
+        "params": {
+          "hidden_dim": 32,
+          "dropout": 0.4408365328088627,
+          "lr": 0.0012939039843634119,
+          "weight_decay": 0.0006988183267432388,
+          "k_neighbours": 14,
+          "n2v_dim": 64,
+          "optimiser": "adamw",
+          "scheduler": "cosine"
+        }
+      },
+      {
+        "number": 29,
+        "value": 0.7326743509612703,
+        "params": {
+          "hidden_dim": 128,
+          "dropout": 0.32349152028127975,
+          "lr": 0.0011085467866691428,
+          "weight_decay": 7.901530921504837e-05,
+          "k_neighbours": 10,
+          "n2v_dim": 64,
+          "optimiser": "adamw",
+          "scheduler": "plateau"
+        }
+      },
+      {
+        "number": 30,
+        "value": 0.7637027058811208,
+        "params": {
+          "hidden_dim": 32,
+          "dropout": 0.4683545389434448,
+          "lr": 0.005422579099569282,
+          "weight_decay": 0.0003517501434624,
+          "k_neighbours": 16,
+          "n2v_dim": 16,
+          "optimiser": "adamw",
+          "scheduler": "cosine"
+        }
+      },
+      {
+        "number": 31,
+        "value": 0.742425827314954,
+        "params": {
+          "hidden_dim": 32,
+          "dropout": 0.43556444035466246,
+          "lr": 0.0006167513561846891,
+          "weight_decay": 0.00014950946855205903,
+          "k_neighbours": 18,
+          "n2v_dim": 64,
+          "optimiser": "adamw",
+          "scheduler": "cosine"
+        }
+      },
+      {
+        "number": 32,
+        "value": 0.7589405159855909,
+        "params": {
+          "hidden_dim": 32,
+          "dropout": 0.4694206154565714,
+          "lr": 0.0020525914051232066,
+          "weight_decay": 0.0002143551960993268,
+          "k_neighbours": 17,
+          "n2v_dim": 64,
+          "optimiser": "adamw",
+          "scheduler": "cosine"
+        }
+      },
+      {
+        "number": 33,
+        "value": 0.7728672939278758,
+        "params": {
+          "hidden_dim": 32,
+          "dropout": 0.38904884344043966,
+          "lr": 0.0008489939909471627,
+          "weight_decay": 0.0001373383623286187,
+          "k_neighbours": 18,
+          "n2v_dim": 64,
+          "optimiser": "adamw",
+          "scheduler": "cosine"
+        }
+      },
+      {
+        "number": 34,
+        "value": 0.7688943539084774,
+        "params": {
+          "hidden_dim": 32,
+          "dropout": 0.4144379582112629,
+          "lr": 0.0006813905307493862,
+          "weight_decay": 0.00012603608937230426,
+          "k_neighbours": 15,
+          "n2v_dim": 64,
+          "optimiser": "adamw",
+          "scheduler": "cosine"
+        }
+      },
+      {
+        "number": 35,
+        "value": 0.7590272209088036,
+        "params": {
+          "hidden_dim": 128,
+          "dropout": 0.4418621119783582,
+          "lr": 0.0013445471407478003,
+          "weight_decay": 7.061934647346107e-05,
+          "k_neighbours": 13,
+          "n2v_dim": 64,
+          "optimiser": "adamw",
+          "scheduler": "cosine"
+        }
+      },
+      {
+        "number": 36,
+        "value": 0.7439046734963807,
+        "params": {
+          "hidden_dim": 32,
+          "dropout": 0.4634353325237157,
+          "lr": 0.0002835407476805134,
+          "weight_decay": 0.000679906860510972,
+          "k_neighbours": 19,
+          "n2v_dim": 16,
+          "optimiser": "adamw",
+          "scheduler": "plateau"
+        }
+      },
+      {
+        "number": 37,
+        "value": 0.7375259026816077,
+        "params": {
+          "hidden_dim": 32,
+          "dropout": 0.4972954745546021,
+          "lr": 0.0005201000858806088,
+          "weight_decay": 0.0001943482098508292,
+          "k_neighbours": 13,
+          "n2v_dim": 64,
+          "optimiser": "adamw",
+          "scheduler": "cosine"
+        }
+      },
+      {
+        "number": 38,
+        "value": 0.763985207818377,
+        "params": {
+          "hidden_dim": 128,
+          "dropout": 0.3336016709979853,
+          "lr": 0.0031027171480403496,
+          "weight_decay": 5.8790578497885843e-05,
+          "k_neighbours": 17,
+          "n2v_dim": 64,
+          "optimiser": "adamw",
+          "scheduler": "cosine"
+        }
+      },
+      {
+        "number": 39,
+        "value": 0.7358445334003187,
+        "params": {
+          "hidden_dim": 32,
+          "dropout": 0.2770062988994654,
+          "lr": 0.0008359665990415434,
+          "weight_decay": 9.789833829227183e-05,
+          "k_neighbours": 6,
+          "n2v_dim": 64,
+          "optimiser": "adam",
+          "scheduler": "plateau"
+        }
+      },
+      {
+        "number": 40,
+        "value": 0.7819893599936336,
+        "params": {
+          "hidden_dim": 32,
+          "dropout": 0.37125840720849695,
+          "lr": 0.0010973056923401813,
+          "weight_decay": 0.000250416746547609,
+          "k_neighbours": 20,
+          "n2v_dim": 16,
+          "optimiser": "adam",
+          "scheduler": "cosine"
+        }
+      },
+      {
+        "number": 41,
+        "value": 0.7819893599936337,
+        "params": {
+          "hidden_dim": 32,
+          "dropout": 0.3658352544282543,
+          "lr": 0.0011471424619217004,
+          "weight_decay": 0.00026672293285043855,
+          "k_neighbours": 20,
+          "n2v_dim": 16,
+          "optimiser": "adam",
+          "scheduler": "cosine"
+        }
+      },
+      {
+        "number": 42,
+        "value": 0.7612215320564811,
+        "params": {
+          "hidden_dim": 32,
+          "dropout": 0.3563305816878317,
+          "lr": 0.0020659759258207073,
+          "weight_decay": 0.00026751480634136624,
+          "k_neighbours": 20,
+          "n2v_dim": 16,
+          "optimiser": "adam",
+          "scheduler": "cosine"
+        }
+      },
+      {
+        "number": 43,
+        "value": 0.780804050562716,
+        "params": {
+          "hidden_dim": 32,
+          "dropout": 0.30300678550004667,
+          "lr": 0.0011063709516907752,
+          "weight_decay": 0.00036120280827204367,
+          "k_neighbours": 19,
+          "n2v_dim": 16,
+          "optimiser": "adam",
+          "scheduler": "cosine"
+        }
+      },
+      {
+        "number": 44,
+        "value": 0.7819893599936337,
+        "params": {
+          "hidden_dim": 32,
+          "dropout": 0.3127720048903492,
+          "lr": 0.0011170493616523554,
+          "weight_decay": 0.0003624391478007303,
+          "k_neighbours": 20,
+          "n2v_dim": 16,
+          "optimiser": "adam",
+          "scheduler": "cosine"
+        }
+      },
+      {
+        "number": 45,
+        "value": 0.7521013142633775,
+        "params": {
+          "hidden_dim": 128,
+          "dropout": 0.3009175663789456,
+          "lr": 0.0010648316848684539,
+          "weight_decay": 0.000368088337705288,
+          "k_neighbours": 19,
+          "n2v_dim": 16,
+          "optimiser": "adam",
+          "scheduler": "cosine"
+        }
+      },
+      {
+        "number": 46,
+        "value": 0.7819893599936337,
+        "params": {
+          "hidden_dim": 32,
+          "dropout": 0.3169883498134266,
+          "lr": 0.0011668537193811513,
+          "weight_decay": 0.0005725687867330849,
+          "k_neighbours": 20,
+          "n2v_dim": 16,
+          "optimiser": "adam",
+          "scheduler": "cosine"
+        }
+      },
+      {
+        "number": 47,
+        "value": 0.7766387338739301,
+        "params": {
+          "hidden_dim": 32,
+          "dropout": 0.28109842432695287,
+          "lr": 0.000526811799929785,
+          "weight_decay": 0.0005823032273516576,
+          "k_neighbours": 20,
+          "n2v_dim": 16,
+          "optimiser": "adam",
+          "scheduler": "plateau"
+        }
+      },
+      {
+        "number": 48,
+        "value": 0.7590012737114037,
+        "params": {
+          "hidden_dim": 32,
+          "dropout": 0.32246017361284407,
+          "lr": 0.0029413875914943333,
+          "weight_decay": 0.0008417349912772537,
+          "k_neighbours": 18,
+          "n2v_dim": 16,
+          "optimiser": "adam",
+          "scheduler": "cosine"
+        }
+      },
+      {
+        "number": 49,
+        "value": 0.7535836910489018,
+        "params": {
+          "hidden_dim": 64,
+          "dropout": 0.34072211247688067,
+          "lr": 0.00187703540012871,
+          "weight_decay": 0.000998385512959494,
+          "k_neighbours": 20,
+          "n2v_dim": 16,
+          "optimiser": "adam",
+          "scheduler": "cosine"
+        }
+      }
+    ]
+  },
+  "HHO": {
+    "n_features": 17,
+    "best_mcc": 0.7737531149712057,
+    "best_trial": 47,
+    "params": {
+      "hidden_dim": 64,
+      "dropout": 0.35130945117725687,
+      "lr": 0.0002446001779697765,
+      "weight_decay": 7.635295685715325e-05,
+      "k_neighbours": 10,
+      "n2v_dim": 64,
+      "optimiser": "adam",
+      "scheduler": "plateau"
+    },
+    "all_trials": [
+      {
+        "number": 0,
+        "value": 0.7642007803048809,
+        "params": {
+          "hidden_dim": 64,
+          "dropout": 0.3,
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "k_neighbours": 10,
+          "n2v_dim": 64,
+          "optimiser": "adam",
+          "scheduler": "plateau"
+        }
+      },
+      {
+        "number": 1,
+        "value": 0.7152200541897334,
+        "params": {
+          "hidden_dim": 64,
+          "dropout": 0.3394633936788146,
+          "lr": 0.0002051338263087451,
+          "weight_decay": 2.0511104188433963e-05,
+          "k_neighbours": 5,
+          "n2v_dim": 16,
+          "optimiser": "adamw",
+          "scheduler": "plateau"
+        }
+      },
+      {
+        "number": 2,
+        "value": 0.7414778681394957,
+        "params": {
+          "hidden_dim": 128,
+          "dropout": 0.3099025726528951,
+          "lr": 0.0007309539835912913,
+          "weight_decay": 3.8234752246751835e-05,
+          "k_neighbours": 14,
+          "n2v_dim": 64,
+          "optimiser": "adamw",
+          "scheduler": "cosine"
+        }
+      },
+      {
+        "number": 3,
+        "value": 0.7199856449267334,
+        "params": {
+          "hidden_dim": 128,
+          "dropout": 0.16820964947491662,
+          "lr": 0.00013492834268013249,
+          "weight_decay": 0.000790261954970823,
+          "k_neighbours": 20,
+          "n2v_dim": 16,
+          "optimiser": "adam",
+          "scheduler": "cosine"
+        }
+      },
+      {
+        "number": 4,
+        "value": 0.7258540069649347,
+        "params": {
+          "hidden_dim": 64,
+          "dropout": 0.36500891374159283,
+          "lr": 0.0004201672054372534,
+          "weight_decay": 0.00010968217207529509,
+          "k_neighbours": 13,
+          "n2v_dim": 32,
+          "optimiser": "adam",
+          "scheduler": "cosine"
+        }
+      },
+      {
+        "number": 5,
+        "value": 0.7498508971144282,
+        "params": {
+          "hidden_dim": 64,
+          "dropout": 0.23013213230530574,
+          "lr": 0.0005989003672254305,
+          "weight_decay": 3.488976654890367e-05,
+          "k_neighbours": 18,
+          "n2v_dim": 64,
+          "optimiser": "adamw",
+          "scheduler": "cosine"
+        }
+      },
+      {
+        "number": 6,
+        "value": 0.7362083432864368,
+        "params": {
+          "hidden_dim": 32,
+          "dropout": 0.42618457138193366,
+          "lr": 0.002592475660475161,
+          "weight_decay": 0.0002870875348195468,
+          "k_neighbours": 17,
+          "n2v_dim": 32,
+          "optimiser": "adam",
+          "scheduler": "plateau"
+        }
+      },
+      {
+        "number": 7,
+        "value": 0.6850494086824841,
+        "params": {
+          "hidden_dim": 128,
+          "dropout": 0.35502298854208525,
+          "lr": 0.0059487468132197715,
+          "weight_decay": 8.798929749689021e-05,
+          "k_neighbours": 6,
+          "n2v_dim": 32,
+          "optimiser": "adam",
+          "scheduler": "plateau"
+        }
+      },
+      {
+        "number": 8,
+        "value": 0.7524693021655058,
+        "params": {
+          "hidden_dim": 64,
+          "dropout": 0.3545641645055122,
+          "lr": 0.0004253162363790873,
+          "weight_decay": 0.0001040258761588385,
+          "k_neighbours": 19,
+          "n2v_dim": 64,
+          "optimiser": "adam",
+          "scheduler": "plateau"
+        }
+      },
+      {
+        "number": 9,
+        "value": 0.7384520845976291,
+        "params": {
+          "hidden_dim": 32,
+          "dropout": 0.44858423607508713,
+          "lr": 0.004048966222584676,
+          "weight_decay": 2.3612399244412595e-05,
+          "k_neighbours": 19,
+          "n2v_dim": 64,
+          "optimiser": "adam",
+          "scheduler": "cosine"
+        }
+      },
+      {
+        "number": 10,
+        "value": 0.7178150256581689,
+        "params": {
+          "hidden_dim": 64,
+          "dropout": 0.1023988731823269,
+          "lr": 0.002467377537662448,
+          "weight_decay": 1.0862348973937137e-05,
+          "k_neighbours": 9,
+          "n2v_dim": 64,
+          "optimiser": "adamw",
+          "scheduler": "plateau"
+        }
+      },
+      {
+        "number": 11,
+        "value": 0.7452993014050601,
+        "params": {
+          "hidden_dim": 64,
+          "dropout": 0.2518416973680895,
+          "lr": 0.001327237465564233,
+          "weight_decay": 0.00013093310334961412,
+          "k_neighbours": 11,
+          "n2v_dim": 64,
+          "optimiser": "adam",
+          "scheduler": "plateau"
+        }
+      },
+      {
+        "number": 12,
+        "value": 0.7379710462180112,
+        "params": {
+          "hidden_dim": 64,
+          "dropout": 0.49795146729526346,
+          "lr": 0.0002867153024498801,
+          "weight_decay": 0.00028037998032208136,
+          "k_neighbours": 15,
+          "n2v_dim": 64,
+          "optimiser": "adam",
+          "scheduler": "plateau"
+        }
+      },
+      {
+        "number": 13,
+        "value": 0.7295398453327369,
+        "params": {
+          "hidden_dim": 64,
+          "dropout": 0.2752482512968502,
+          "lr": 0.0010814406628766168,
+          "weight_decay": 0.00022270414378132143,
+          "k_neighbours": 8,
+          "n2v_dim": 64,
+          "optimiser": "adam",
+          "scheduler": "plateau"
+        }
+      },
+      {
+        "number": 14,
+        "value": 0.7459974762129137,
+        "params": {
+          "hidden_dim": 64,
+          "dropout": 0.4010093335679752,
+          "lr": 0.0010441466828558608,
+          "weight_decay": 8.371623317801158e-05,
+          "k_neighbours": 11,
+          "n2v_dim": 64,
+          "optimiser": "adam",
+          "scheduler": "plateau"
+        }
+      },
+      {
+        "number": 15,
+        "value": 0.7330363285916834,
+        "params": {
+          "hidden_dim": 32,
+          "dropout": 0.20171597427154758,
+          "lr": 0.00035009445855264314,
+          "weight_decay": 0.0006317518842175362,
+          "k_neighbours": 16,
+          "n2v_dim": 16,
+          "optimiser": "adam",
+          "scheduler": "plateau"
+        }
+      },
+      {
+        "number": 16,
+        "value": 0.7016368948216075,
+        "params": {
+          "hidden_dim": 64,
+          "dropout": 0.29856991034347324,
+          "lr": 0.0092336267166085,
+          "weight_decay": 5.569878397745655e-05,
+          "k_neighbours": 13,
+          "n2v_dim": 64,
+          "optimiser": "adam",
+          "scheduler": "plateau"
+        }
+      },
+      {
+        "number": 17,
+        "value": 0.6731591325942531,
+        "params": {
+          "hidden_dim": 64,
+          "dropout": 0.3771534116917166,
+          "lr": 0.00010512291041889052,
+          "weight_decay": 0.00014252739508200025,
+          "k_neighbours": 8,
+          "n2v_dim": 64,
+          "optimiser": "adam",
+          "scheduler": "plateau"
+        }
+      },
+      {
+        "number": 18,
+        "value": 0.7091189663696886,
+        "params": {
+          "hidden_dim": 128,
+          "dropout": 0.3006295489621945,
+          "lr": 0.0016535791877356197,
+          "weight_decay": 0.0003816915673085927,
+          "k_neighbours": 11,
+          "n2v_dim": 32,
+          "optimiser": "adamw",
+          "scheduler": "plateau"
+        }
+      },
+      {
+        "number": 19,
+        "value": 0.751768988177725,
+        "params": {
+          "hidden_dim": 32,
+          "dropout": 0.15774402241861327,
+          "lr": 0.0005675340745421171,
+          "weight_decay": 5.671271528634826e-05,
+          "k_neighbours": 17,
+          "n2v_dim": 16,
+          "optimiser": "adam",
+          "scheduler": "plateau"
+        }
+      },
+      {
+        "number": 20,
+        "value": 0.7357910920372439,
+        "params": {
+          "hidden_dim": 64,
+          "dropout": 0.46740401287714417,
+          "lr": 0.00018445467501639387,
+          "weight_decay": 0.0001819106864238727,
+          "k_neighbours": 20,
+          "n2v_dim": 64,
+          "optimiser": "adam",
+          "scheduler": "plateau"
+        }
+      },
+      {
+        "number": 21,
+        "value": 0.7515548819005249,
+        "params": {
+          "hidden_dim": 32,
+          "dropout": 0.11966977805771778,
+          "lr": 0.0005323595809771213,
+          "weight_decay": 6.155281945960992e-05,
+          "k_neighbours": 17,
+          "n2v_dim": 16,
+          "optimiser": "adam",
+          "scheduler": "plateau"
+        }
+      },
+      {
+        "number": 22,
+        "value": 0.7389860304220245,
+        "params": {
+          "hidden_dim": 32,
+          "dropout": 0.15917047278844784,
+          "lr": 0.0007812634833498691,
+          "weight_decay": 5.771649772973743e-05,
+          "k_neighbours": 17,
+          "n2v_dim": 16,
+          "optimiser": "adam",
+          "scheduler": "plateau"
+        }
+      },
+      {
+        "number": 23,
+        "value": 0.6956256454349964,
+        "params": {
+          "hidden_dim": 32,
+          "dropout": 0.2165314276499115,
+          "lr": 0.00027894490101338797,
+          "weight_decay": 3.806565808632292e-05,
+          "k_neighbours": 19,
+          "n2v_dim": 16,
+          "optimiser": "adam",
+          "scheduler": "plateau"
+        }
+      },
+      {
+        "number": 24,
+        "value": 0.7345016385627503,
+        "params": {
+          "hidden_dim": 32,
+          "dropout": 0.1740390014877054,
+          "lr": 0.0004587500182595023,
+          "weight_decay": 7.666615852209615e-05,
+          "k_neighbours": 14,
+          "n2v_dim": 16,
+          "optimiser": "adam",
+          "scheduler": "plateau"
+        }
+      },
+      {
+        "number": 25,
+        "value": 0.7682261780997285,
+        "params": {
+          "hidden_dim": 32,
+          "dropout": 0.33150731049781657,
+          "lr": 0.0017914331391942206,
+          "weight_decay": 0.0001690658881663551,
+          "k_neighbours": 18,
+          "n2v_dim": 16,
+          "optimiser": "adam",
+          "scheduler": "plateau"
+        }
+      },
+      {
+        "number": 26,
+        "value": 0.7480785233882783,
+        "params": {
+          "hidden_dim": 64,
+          "dropout": 0.32718359843779476,
+          "lr": 0.0019908603279946797,
+          "weight_decay": 0.00045094247787643934,
+          "k_neighbours": 19,
+          "n2v_dim": 64,
+          "optimiser": "adamw",
+          "scheduler": "cosine"
+        }
+      },
+      {
+        "number": 27,
+        "value": 0.7381625512513096,
+        "params": {
+          "hidden_dim": 64,
+          "dropout": 0.39665756802753777,
+          "lr": 0.003977011167149506,
+          "weight_decay": 0.000188985505674316,
+          "k_neighbours": 15,
+          "n2v_dim": 64,
+          "optimiser": "adam",
+          "scheduler": "plateau"
+        }
+      },
+      {
+        "number": 28,
+        "value": 0.7465010773937724,
+        "params": {
+          "hidden_dim": 128,
+          "dropout": 0.2697131090669481,
+          "lr": 0.0008891974004863831,
+          "weight_decay": 0.00012845491371457906,
+          "k_neighbours": 9,
+          "n2v_dim": 32,
+          "optimiser": "adam",
+          "scheduler": "plateau"
+        }
+      },
+      {
+        "number": 29,
+        "value": 0.6938900441668682,
+        "params": {
+          "hidden_dim": 32,
+          "dropout": 0.336276764117739,
+          "lr": 0.001475913369084282,
+          "weight_decay": 0.00010295016228169087,
+          "k_neighbours": 5,
+          "n2v_dim": 16,
+          "optimiser": "adamw",
+          "scheduler": "plateau"
+        }
+      },
+      {
+        "number": 30,
+        "value": 0.6984822204723891,
+        "params": {
+          "hidden_dim": 64,
+          "dropout": 0.32704439727344187,
+          "lr": 0.0026574342394862635,
+          "weight_decay": 0.0001663031494760589,
+          "k_neighbours": 12,
+          "n2v_dim": 16,
+          "optimiser": "adam",
+          "scheduler": "plateau"
+        }
+      },
+      {
+        "number": 31,
+        "value": 0.7508448000576038,
+        "params": {
+          "hidden_dim": 32,
+          "dropout": 0.3906595230016753,
+          "lr": 0.0006041764149528161,
+          "weight_decay": 4.763518009290181e-05,
+          "k_neighbours": 18,
+          "n2v_dim": 16,
+          "optimiser": "adam",
+          "scheduler": "plateau"
+        }
+      },
+      {
+        "number": 32,
+        "value": 0.743646040045721,
+        "params": {
+          "hidden_dim": 32,
+          "dropout": 0.2816886739604733,
+          "lr": 0.0008032728868142295,
+          "weight_decay": 2.73530391014112e-05,
+          "k_neighbours": 16,
+          "n2v_dim": 16,
+          "optimiser": "adam",
+          "scheduler": "plateau"
+        }
+      },
+      {
+        "number": 33,
+        "value": 0.6489439750060282,
+        "params": {
+          "hidden_dim": 32,
+          "dropout": 0.24772786048927087,
+          "lr": 0.0002033230448886088,
+          "weight_decay": 1.5090290742829625e-05,
+          "k_neighbours": 20,
+          "n2v_dim": 16,
+          "optimiser": "adam",
+          "scheduler": "plateau"
+        }
+      },
+      {
+        "number": 34,
+        "value": 0.653120288648346,
+        "params": {
+          "hidden_dim": 32,
+          "dropout": 0.3553320502974251,
+          "lr": 0.0003277162087008101,
+          "weight_decay": 6.97467486052681e-05,
+          "k_neighbours": 18,
+          "n2v_dim": 16,
+          "optimiser": "adam",
+          "scheduler": "cosine"
+        }
+      },
+      {
+        "number": 35,
+        "value": 0.7422675058881906,
+        "params": {
+          "hidden_dim": 128,
+          "dropout": 0.4248060499474775,
+          "lr": 0.0006300197635918763,
+          "weight_decay": 0.00010094669758162118,
+          "k_neighbours": 16,
+          "n2v_dim": 16,
+          "optimiser": "adamw",
+          "scheduler": "cosine"
+        }
+      },
+      {
+        "number": 36,
+        "value": 0.7117779693777593,
+        "params": {
+          "hidden_dim": 32,
+          "dropout": 0.1842423810722205,
+          "lr": 0.0011079998018773706,
+          "weight_decay": 4.6584807513040396e-05,
+          "k_neighbours": 19,
+          "n2v_dim": 64,
+          "optimiser": "adam",
+          "scheduler": "plateau"
+        }
+      },
+      {
+        "number": 37,
+        "value": 0.7440225985202806,
+        "params": {
+          "hidden_dim": 64,
+          "dropout": 0.3132591639808915,
+          "lr": 0.0004098758328644159,
+          "weight_decay": 0.0002445492355849777,
+          "k_neighbours": 20,
+          "n2v_dim": 32,
+          "optimiser": "adam",
+          "scheduler": "plateau"
+        }
+      },
+      {
+        "number": 38,
+        "value": 0.6814843002781207,
+        "params": {
+          "hidden_dim": 128,
+          "dropout": 0.13122921660052364,
+          "lr": 0.0019237509860334748,
+          "weight_decay": 3.1683331405253746e-05,
+          "k_neighbours": 18,
+          "n2v_dim": 16,
+          "optimiser": "adam",
+          "scheduler": "cosine"
+        }
+      },
+      {
+        "number": 39,
+        "value": 0.741659934550907,
+        "params": {
+          "hidden_dim": 32,
+          "dropout": 0.36621194751565866,
+          "lr": 0.0032143588763436566,
+          "weight_decay": 0.00034307281590874436,
+          "k_neighbours": 14,
+          "n2v_dim": 64,
+          "optimiser": "adamw",
+          "scheduler": "plateau"
+        }
+      },
+      {
+        "number": 40,
+        "value": 0.6734418949248215,
+        "params": {
+          "hidden_dim": 64,
+          "dropout": 0.4190821670679967,
+          "lr": 0.0001600252931109775,
+          "weight_decay": 0.00011948196861067838,
+          "k_neighbours": 17,
+          "n2v_dim": 32,
+          "optimiser": "adam",
+          "scheduler": "cosine"
+        }
+      },
+      {
+        "number": 41,
+        "value": 0.7458638444684744,
+        "params": {
+          "hidden_dim": 32,
+          "dropout": 0.1016276929675653,
+          "lr": 0.0004908812008890096,
+          "weight_decay": 6.171603795114127e-05,
+          "k_neighbours": 17,
+          "n2v_dim": 16,
+          "optimiser": "adam",
+          "scheduler": "plateau"
+        }
+      },
+      {
+        "number": 42,
+        "value": 0.749151821012968,
+        "params": {
+          "hidden_dim": 32,
+          "dropout": 0.13431157510365507,
+          "lr": 0.0005321420825338453,
+          "weight_decay": 9.183302848747949e-05,
+          "k_neighbours": 18,
+          "n2v_dim": 16,
+          "optimiser": "adam",
+          "scheduler": "plateau"
+        }
+      },
+      {
+        "number": 43,
+        "value": 0.755344283387718,
+        "params": {
+          "hidden_dim": 32,
+          "dropout": 0.13448251348477275,
+          "lr": 0.0006914478083562982,
+          "weight_decay": 4.791243084770237e-05,
+          "k_neighbours": 15,
+          "n2v_dim": 16,
+          "optimiser": "adam",
+          "scheduler": "plateau"
+        }
+      },
+      {
+        "number": 44,
+        "value": 0.7416900178491082,
+        "params": {
+          "hidden_dim": 32,
+          "dropout": 0.23473683455797986,
+          "lr": 0.0006862970992535021,
+          "weight_decay": 2.0485379913225626e-05,
+          "k_neighbours": 15,
+          "n2v_dim": 16,
+          "optimiser": "adam",
+          "scheduler": "plateau"
+        }
+      },
+      {
+        "number": 45,
+        "value": 0.7095767304115197,
+        "params": {
+          "hidden_dim": 32,
+          "dropout": 0.14411944193279247,
+          "lr": 0.0012877666812378848,
+          "weight_decay": 0.0001571885874826373,
+          "k_neighbours": 13,
+          "n2v_dim": 64,
+          "optimiser": "adam",
+          "scheduler": "plateau"
+        }
+      },
+      {
+        "number": 46,
+        "value": 0.7415619594449223,
+        "params": {
+          "hidden_dim": 64,
+          "dropout": 0.19547256956556794,
+          "lr": 0.000988623496206445,
+          "weight_decay": 4.299332114696656e-05,
+          "k_neighbours": 7,
+          "n2v_dim": 16,
+          "optimiser": "adam",
+          "scheduler": "plateau"
+        }
+      },
+      {
+        "number": 47,
+        "value": 0.7737531149712057,
+        "params": {
+          "hidden_dim": 64,
+          "dropout": 0.35130945117725687,
+          "lr": 0.0002446001779697765,
+          "weight_decay": 7.635295685715325e-05,
+          "k_neighbours": 10,
+          "n2v_dim": 64,
+          "optimiser": "adam",
+          "scheduler": "plateau"
+        }
+      },
+      {
+        "number": 48,
+        "value": 0.768288990498461,
+        "params": {
+          "hidden_dim": 64,
+          "dropout": 0.3545022923110604,
+          "lr": 0.0002542493446865021,
+          "weight_decay": 7.138225967672316e-05,
+          "k_neighbours": 10,
+          "n2v_dim": 64,
+          "optimiser": "adam",
+          "scheduler": "plateau"
+        }
+      },
+      {
+        "number": 49,
+        "value": 0.6928833934548011,
+        "params": {
+          "hidden_dim": 64,
+          "dropout": 0.34529497734249665,
+          "lr": 0.0001198796560284551,
+          "weight_decay": 7.630123641181773e-05,
+          "k_neighbours": 10,
+          "n2v_dim": 64,
+          "optimiser": "adam",
+          "scheduler": "plateau"
+        }
+      }
+    ]
+  },
+  "MI": {
+    "n_features": 20,
+    "best_mcc": 0.771206807385935,
+    "best_trial": 13,
+    "params": {
+      "hidden_dim": 32,
+      "dropout": 0.4979696114920618,
+      "lr": 0.002473267015708714,
+      "weight_decay": 0.0002654334209893315,
+      "k_neighbours": 20,
+      "n2v_dim": 64,
+      "optimiser": "adam",
+      "scheduler": "cosine"
+    },
+    "all_trials": [
+      {
+        "number": 0,
+        "value": 0.7238800407909354,
+        "params": {
+          "hidden_dim": 64,
+          "dropout": 0.3,
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "k_neighbours": 10,
+          "n2v_dim": 64,
+          "optimiser": "adam",
+          "scheduler": "plateau"
+        }
+      },
+      {
+        "number": 1,
+        "value": 0.7308580698897202,
+        "params": {
+          "hidden_dim": 64,
+          "dropout": 0.3394633936788146,
+          "lr": 0.0002051338263087451,
+          "weight_decay": 2.0511104188433963e-05,
+          "k_neighbours": 5,
+          "n2v_dim": 16,
+          "optimiser": "adamw",
+          "scheduler": "plateau"
+        }
+      },
+      {
+        "number": 2,
+        "value": 0.7371840171242823,
+        "params": {
+          "hidden_dim": 128,
+          "dropout": 0.3099025726528951,
+          "lr": 0.0007309539835912913,
+          "weight_decay": 3.8234752246751835e-05,
+          "k_neighbours": 14,
+          "n2v_dim": 64,
+          "optimiser": "adamw",
+          "scheduler": "cosine"
+        }
+      },
+      {
+        "number": 3,
+        "value": 0.7036579983994098,
+        "params": {
+          "hidden_dim": 128,
+          "dropout": 0.16820964947491662,
+          "lr": 0.00013492834268013249,
+          "weight_decay": 0.000790261954970823,
+          "k_neighbours": 20,
+          "n2v_dim": 16,
+          "optimiser": "adam",
+          "scheduler": "cosine"
+        }
+      },
+      {
+        "number": 4,
+        "value": 0.7126472276861906,
+        "params": {
+          "hidden_dim": 64,
+          "dropout": 0.36500891374159283,
+          "lr": 0.0004201672054372534,
+          "weight_decay": 0.00010968217207529509,
+          "k_neighbours": 13,
+          "n2v_dim": 32,
+          "optimiser": "adam",
+          "scheduler": "cosine"
+        }
+      },
+      {
+        "number": 5,
+        "value": 0.7362824876621166,
+        "params": {
+          "hidden_dim": 64,
+          "dropout": 0.23013213230530574,
+          "lr": 0.0005989003672254305,
+          "weight_decay": 3.488976654890367e-05,
+          "k_neighbours": 18,
+          "n2v_dim": 64,
+          "optimiser": "adamw",
+          "scheduler": "cosine"
+        }
+      },
+      {
+        "number": 6,
+        "value": 0.7303422751488188,
+        "params": {
+          "hidden_dim": 32,
+          "dropout": 0.42618457138193366,
+          "lr": 0.002592475660475161,
+          "weight_decay": 0.0002870875348195468,
+          "k_neighbours": 17,
+          "n2v_dim": 32,
+          "optimiser": "adam",
+          "scheduler": "plateau"
+        }
+      },
+      {
+        "number": 7,
+        "value": 0.7101361410587107,
+        "params": {
+          "hidden_dim": 128,
+          "dropout": 0.35502298854208525,
+          "lr": 0.0059487468132197715,
+          "weight_decay": 8.798929749689021e-05,
+          "k_neighbours": 6,
+          "n2v_dim": 32,
+          "optimiser": "adam",
+          "scheduler": "plateau"
+        }
+      },
+      {
+        "number": 8,
+        "value": 0.7393507573169604,
+        "params": {
+          "hidden_dim": 64,
+          "dropout": 0.3545641645055122,
+          "lr": 0.0004253162363790873,
+          "weight_decay": 0.0001040258761588385,
+          "k_neighbours": 19,
+          "n2v_dim": 64,
+          "optimiser": "adam",
+          "scheduler": "plateau"
+        }
+      },
+      {
+        "number": 9,
+        "value": 0.7518994770455626,
+        "params": {
+          "hidden_dim": 32,
+          "dropout": 0.44858423607508713,
+          "lr": 0.004048966222584676,
+          "weight_decay": 2.3612399244412595e-05,
+          "k_neighbours": 19,
+          "n2v_dim": 64,
+          "optimiser": "adam",
+          "scheduler": "cosine"
+        }
+      },
+      {
+        "number": 10,
+        "value": 0.7126710876872016,
+        "params": {
+          "hidden_dim": 32,
+          "dropout": 0.1023988731823269,
+          "lr": 0.008691089486124988,
+          "weight_decay": 1.0862348973937137e-05,
+          "k_neighbours": 9,
+          "n2v_dim": 64,
+          "optimiser": "adamw",
+          "scheduler": "cosine"
+        }
+      },
+      {
+        "number": 11,
+        "value": 0.753434835529923,
+        "params": {
+          "hidden_dim": 32,
+          "dropout": 0.49860379387436193,
+          "lr": 0.002425699643845411,
+          "weight_decay": 0.0002479201332659857,
+          "k_neighbours": 20,
+          "n2v_dim": 64,
+          "optimiser": "adam",
+          "scheduler": "plateau"
+        }
+      },
+      {
+        "number": 12,
+        "value": 0.7294492045860328,
+        "params": {
+          "hidden_dim": 32,
+          "dropout": 0.49960387914774324,
+          "lr": 0.0026219091494932606,
+          "weight_decay": 0.0006922076221922346,
+          "k_neighbours": 16,
+          "n2v_dim": 64,
+          "optimiser": "adam",
+          "scheduler": "plateau"
+        }
+      },
+      {
+        "number": 13,
+        "value": 0.771206807385935,
+        "params": {
+          "hidden_dim": 32,
+          "dropout": 0.4979696114920618,
+          "lr": 0.002473267015708714,
+          "weight_decay": 0.0002654334209893315,
+          "k_neighbours": 20,
+          "n2v_dim": 64,
+          "optimiser": "adam",
+          "scheduler": "cosine"
+        }
+      },
+      {
+        "number": 14,
+        "value": 0.761288276371618,
+        "params": {
+          "hidden_dim": 32,
+          "dropout": 0.4992573041023945,
+          "lr": 0.0015123317840985157,
+          "weight_decay": 0.0002870610646865803,
+          "k_neighbours": 20,
+          "n2v_dim": 64,
+          "optimiser": "adam",
+          "scheduler": "cosine"
+        }
+      },
+      {
+        "number": 15,
+        "value": 0.7499742065364331,
+        "params": {
+          "hidden_dim": 32,
+          "dropout": 0.4298116391554391,
+          "lr": 0.0013109833200274285,
+          "weight_decay": 0.0003801293272819374,
+          "k_neighbours": 15,
+          "n2v_dim": 16,
+          "optimiser": "adam",
+          "scheduler": "cosine"
+        }
+      },
+      {
+        "number": 16,
+        "value": 0.7621636933129083,
+        "params": {
+          "hidden_dim": 32,
+          "dropout": 0.45938059602311,
+          "lr": 0.0015738422131649531,
+          "weight_decay": 0.00017510458031943653,
+          "k_neighbours": 17,
+          "n2v_dim": 64,
+          "optimiser": "adam",
+          "scheduler": "cosine"
+        }
+      },
+      {
+        "number": 17,
+        "value": 0.7500652898052355,
+        "params": {
+          "hidden_dim": 32,
+          "dropout": 0.40763232582891007,
+          "lr": 0.004798156216545938,
+          "weight_decay": 0.00020029171776109203,
+          "k_neighbours": 13,
+          "n2v_dim": 64,
+          "optimiser": "adam",
+          "scheduler": "cosine"
+        }
+      },
+      {
+        "number": 18,
+        "value": 0.710875278186858,
+        "params": {
+          "hidden_dim": 32,
+          "dropout": 0.4438746148548197,
+          "lr": 0.0017021707636502444,
+          "weight_decay": 0.00017671334614654505,
+          "k_neighbours": 17,
+          "n2v_dim": 32,
+          "optimiser": "adamw",
+          "scheduler": "cosine"
+        }
+      },
+      {
+        "number": 19,
+        "value": 0.7630349676133042,
+        "params": {
+          "hidden_dim": 32,
+          "dropout": 0.3952400832076436,
+          "lr": 0.003112317012929681,
+          "weight_decay": 0.0004763619767666613,
+          "k_neighbours": 11,
+          "n2v_dim": 16,
+          "optimiser": "adam",
+          "scheduler": "cosine"
+        }
+      },
+      {
+        "number": 20,
+        "value": 0.6924448548415031,
+        "params": {
+          "hidden_dim": 128,
+          "dropout": 0.3941355055100063,
+          "lr": 0.009030182322077657,
+          "weight_decay": 0.0004991637650097499,
+          "k_neighbours": 11,
+          "n2v_dim": 16,
+          "optimiser": "adam",
+          "scheduler": "cosine"
+        }
+      },
+      {
+        "number": 21,
+        "value": 0.7363314125664482,
+        "params": {
+          "hidden_dim": 32,
+          "dropout": 0.4608723622708301,
+          "lr": 0.003318441814353737,
+          "weight_decay": 0.00041263207465227434,
+          "k_neighbours": 8,
+          "n2v_dim": 16,
+          "optimiser": "adam",
+          "scheduler": "cosine"
+        }
+      },
+      {
+        "number": 22,
+        "value": 0.7603319345534477,
+        "params": {
+          "hidden_dim": 32,
+          "dropout": 0.3894297736138055,
+          "lr": 0.0018069776437071895,
+          "weight_decay": 0.0001534223974174516,
+          "k_neighbours": 12,
+          "n2v_dim": 16,
+          "optimiser": "adam",
+          "scheduler": "cosine"
+        }
+      },
+      {
+        "number": 23,
+        "value": 0.7279650164930352,
+        "params": {
+          "hidden_dim": 32,
+          "dropout": 0.4725033880739172,
+          "lr": 0.001066997530172406,
+          "weight_decay": 0.0005718129848254083,
+          "k_neighbours": 7,
+          "n2v_dim": 16,
+          "optimiser": "adam",
+          "scheduler": "cosine"
+        }
+      },
+      {
+        "number": 24,
+        "value": 0.7420545763371289,
+        "params": {
+          "hidden_dim": 32,
+          "dropout": 0.40468408569751707,
+          "lr": 0.006313628434701609,
+          "weight_decay": 0.0009884157497090013,
+          "k_neighbours": 16,
+          "n2v_dim": 64,
+          "optimiser": "adam",
+          "scheduler": "cosine"
+        }
+      },
+      {
+        "number": 25,
+        "value": 0.7384584276222593,
+        "params": {
+          "hidden_dim": 32,
+          "dropout": 0.46524515180468806,
+          "lr": 0.0021225863293314203,
+          "weight_decay": 6.748131129379857e-05,
+          "k_neighbours": 18,
+          "n2v_dim": 16,
+          "optimiser": "adam",
+          "scheduler": "cosine"
+        }
+      },
+      {
+        "number": 26,
+        "value": 0.7584340777757856,
+        "params": {
+          "hidden_dim": 32,
+          "dropout": 0.25777990569558673,
+          "lr": 0.003685627812504611,
+          "weight_decay": 0.00014545872109318977,
+          "k_neighbours": 15,
+          "n2v_dim": 64,
+          "optimiser": "adamw",
+          "scheduler": "cosine"
+        }
+      },
+      {
+        "number": 27,
+        "value": 0.7345854281749344,
+        "params": {
+          "hidden_dim": 32,
+          "dropout": 0.4755789605059503,
+          "lr": 0.0008092192722507389,
+          "weight_decay": 0.0003452411389272734,
+          "k_neighbours": 18,
+          "n2v_dim": 64,
+          "optimiser": "adam",
+          "scheduler": "cosine"
+        }
+      },
+      {
+        "number": 28,
+        "value": 0.7469393749025444,
+        "params": {
+          "hidden_dim": 32,
+          "dropout": 0.4243956598707922,
+          "lr": 0.002989790987542516,
+          "weight_decay": 6.377484307013702e-05,
+          "k_neighbours": 11,
+          "n2v_dim": 32,
+          "optimiser": "adam",
+          "scheduler": "cosine"
+        }
+      },
+      {
+        "number": 29,
+        "value": 0.746908417250205,
+        "params": {
+          "hidden_dim": 128,
+          "dropout": 0.3192763989707412,
+          "lr": 0.0010784453549218256,
+          "weight_decay": 0.00021932038130050927,
+          "k_neighbours": 10,
+          "n2v_dim": 16,
+          "optimiser": "adam",
+          "scheduler": "cosine"
+        }
+      }
+    ]
+  },
+  "ALL": {
+    "n_features": 48,
+    "best_mcc": 0.7295778791952658,
+    "best_trial": 22,
+    "params": {
+      "hidden_dim": 128,
+      "dropout": 0.37414815772925325,
+      "lr": 0.0007812634833498691,
+      "weight_decay": 1.3895564854754182e-05,
+      "k_neighbours": 8,
+      "n2v_dim": 64,
+      "optimiser": "adamw",
+      "scheduler": "cosine"
+    },
+    "all_trials": [
+      {
+        "number": 0,
+        "value": 0.6695804792667468,
+        "params": {
+          "hidden_dim": 64,
+          "dropout": 0.3,
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "k_neighbours": 10,
+          "n2v_dim": 64,
+          "optimiser": "adam",
+          "scheduler": "plateau"
+        }
+      },
+      {
+        "number": 1,
+        "value": 0.6410169909364953,
+        "params": {
+          "hidden_dim": 64,
+          "dropout": 0.3394633936788146,
+          "lr": 0.0002051338263087451,
+          "weight_decay": 2.0511104188433963e-05,
+          "k_neighbours": 5,
+          "n2v_dim": 16,
+          "optimiser": "adamw",
+          "scheduler": "plateau"
+        }
+      },
+      {
+        "number": 2,
+        "value": 0.6998652803181258,
+        "params": {
+          "hidden_dim": 128,
+          "dropout": 0.3099025726528951,
+          "lr": 0.0007309539835912913,
+          "weight_decay": 3.8234752246751835e-05,
+          "k_neighbours": 14,
+          "n2v_dim": 64,
+          "optimiser": "adamw",
+          "scheduler": "cosine"
+        }
+      },
+      {
+        "number": 3,
+        "value": 0.6256009248487927,
+        "params": {
+          "hidden_dim": 128,
+          "dropout": 0.16820964947491662,
+          "lr": 0.00013492834268013249,
+          "weight_decay": 0.000790261954970823,
+          "k_neighbours": 20,
+          "n2v_dim": 16,
+          "optimiser": "adam",
+          "scheduler": "cosine"
+        }
+      },
+      {
+        "number": 4,
+        "value": 0.6899222711705459,
+        "params": {
+          "hidden_dim": 64,
+          "dropout": 0.36500891374159283,
+          "lr": 0.0004201672054372534,
+          "weight_decay": 0.00010968217207529509,
+          "k_neighbours": 13,
+          "n2v_dim": 32,
+          "optimiser": "adam",
+          "scheduler": "cosine"
+        }
+      },
+      {
+        "number": 5,
+        "value": 0.6707283990448274,
+        "params": {
+          "hidden_dim": 64,
+          "dropout": 0.23013213230530574,
+          "lr": 0.0005989003672254305,
+          "weight_decay": 3.488976654890367e-05,
+          "k_neighbours": 18,
+          "n2v_dim": 64,
+          "optimiser": "adamw",
+          "scheduler": "cosine"
+        }
+      },
+      {
+        "number": 6,
+        "value": 0.6740949966310907,
+        "params": {
+          "hidden_dim": 32,
+          "dropout": 0.42618457138193366,
+          "lr": 0.002592475660475161,
+          "weight_decay": 0.0002870875348195468,
+          "k_neighbours": 17,
+          "n2v_dim": 32,
+          "optimiser": "adam",
+          "scheduler": "plateau"
+        }
+      },
+      {
+        "number": 7,
+        "value": 0.6828757901133986,
+        "params": {
+          "hidden_dim": 128,
+          "dropout": 0.35502298854208525,
+          "lr": 0.0059487468132197715,
+          "weight_decay": 8.798929749689021e-05,
+          "k_neighbours": 6,
+          "n2v_dim": 32,
+          "optimiser": "adam",
+          "scheduler": "plateau"
+        }
+      },
+      {
+        "number": 8,
+        "value": 0.6605351830143394,
+        "params": {
+          "hidden_dim": 64,
+          "dropout": 0.3545641645055122,
+          "lr": 0.0004253162363790873,
+          "weight_decay": 0.0001040258761588385,
+          "k_neighbours": 19,
+          "n2v_dim": 64,
+          "optimiser": "adam",
+          "scheduler": "plateau"
+        }
+      },
+      {
+        "number": 9,
+        "value": 0.6928907179320516,
+        "params": {
+          "hidden_dim": 32,
+          "dropout": 0.44858423607508713,
+          "lr": 0.004048966222584676,
+          "weight_decay": 2.3612399244412595e-05,
+          "k_neighbours": 19,
+          "n2v_dim": 64,
+          "optimiser": "adam",
+          "scheduler": "cosine"
+        }
+      },
+      {
+        "number": 10,
+        "value": 0.679479611942978,
+        "params": {
+          "hidden_dim": 128,
+          "dropout": 0.1023988731823269,
+          "lr": 0.002467377537662448,
+          "weight_decay": 1.0862348973937137e-05,
+          "k_neighbours": 14,
+          "n2v_dim": 64,
+          "optimiser": "adamw",
+          "scheduler": "cosine"
+        }
+      },
+      {
+        "number": 11,
+        "value": 0.6881748488895786,
+        "params": {
+          "hidden_dim": 32,
+          "dropout": 0.4983307912220333,
+          "lr": 0.009581215837965265,
+          "weight_decay": 3.460785782075155e-05,
+          "k_neighbours": 15,
+          "n2v_dim": 64,
+          "optimiser": "adamw",
+          "scheduler": "cosine"
+        }
+      },
+      {
+        "number": 12,
+        "value": 0.6702857230227548,
+        "params": {
+          "hidden_dim": 32,
+          "dropout": 0.4992574635645836,
+          "lr": 0.0018910974606767817,
+          "weight_decay": 3.7011765913449046e-05,
+          "k_neighbours": 11,
+          "n2v_dim": 64,
+          "optimiser": "adamw",
+          "scheduler": "cosine"
+        }
+      },
+      {
+        "number": 13,
+        "value": 0.6772663562113597,
+        "params": {
+          "hidden_dim": 32,
+          "dropout": 0.26246697037214733,
+          "lr": 0.0012662579610387093,
+          "weight_decay": 1.0916905677665119e-05,
+          "k_neighbours": 16,
+          "n2v_dim": 64,
+          "optimiser": "adamw",
+          "scheduler": "cosine"
+        }
+      },
+      {
+        "number": 14,
+        "value": 0.6951087814265968,
+        "params": {
+          "hidden_dim": 128,
+          "dropout": 0.4211645623706607,
+          "lr": 0.004874838174739162,
+          "weight_decay": 2.0847875104970986e-05,
+          "k_neighbours": 11,
+          "n2v_dim": 64,
+          "optimiser": "adam",
+          "scheduler": "cosine"
+        }
+      },
+      {
+        "number": 15,
+        "value": 0.6722974999283944,
+        "params": {
+          "hidden_dim": 128,
+          "dropout": 0.41137885698850224,
+          "lr": 0.00023470170525215016,
+          "weight_decay": 5.887566238745411e-05,
+          "k_neighbours": 9,
+          "n2v_dim": 16,
+          "optimiser": "adamw",
+          "scheduler": "cosine"
+        }
+      },
+      {
+        "number": 16,
+        "value": 0.6820831263976885,
+        "params": {
+          "hidden_dim": 128,
+          "dropout": 0.24060866325328478,
+          "lr": 0.0092336267166085,
+          "weight_decay": 0.00019042335011741282,
+          "k_neighbours": 8,
+          "n2v_dim": 64,
+          "optimiser": "adam",
+          "scheduler": "cosine"
+        }
+      },
+      {
+        "number": 17,
+        "value": 0.7161454119291617,
+        "params": {
+          "hidden_dim": 128,
+          "dropout": 0.29462845896217527,
+          "lr": 0.0009029245888295053,
+          "weight_decay": 1.9125894910057158e-05,
+          "k_neighbours": 12,
+          "n2v_dim": 64,
+          "optimiser": "adamw",
+          "scheduler": "cosine"
+        }
+      },
+      {
+        "number": 18,
+        "value": 0.6852945002139477,
+        "params": {
+          "hidden_dim": 128,
+          "dropout": 0.29658125115737566,
+          "lr": 0.000775681547646079,
+          "weight_decay": 6.002414679171156e-05,
+          "k_neighbours": 13,
+          "n2v_dim": 32,
+          "optimiser": "adamw",
+          "scheduler": "cosine"
+        }
+      },
+      {
+        "number": 19,
+        "value": 0.6692609749936447,
+        "params": {
+          "hidden_dim": 128,
+          "dropout": 0.17989757729540096,
+          "lr": 0.0014470852935062346,
+          "weight_decay": 1.6862855242388603e-05,
+          "k_neighbours": 12,
+          "n2v_dim": 16,
+          "optimiser": "adamw",
+          "scheduler": "cosine"
+        }
+      },
+      {
+        "number": 20,
+        "value": 0.6910240166500964,
+        "params": {
+          "hidden_dim": 128,
+          "dropout": 0.18690273345172576,
+          "lr": 0.00044334562757635324,
+          "weight_decay": 4.721742769368162e-05,
+          "k_neighbours": 15,
+          "n2v_dim": 64,
+          "optimiser": "adamw",
+          "scheduler": "cosine"
+        }
+      },
+      {
+        "number": 21,
+        "value": 0.6892116653686836,
+        "params": {
+          "hidden_dim": 128,
+          "dropout": 0.30193615816932373,
+          "lr": 0.004327768787370985,
+          "weight_decay": 1.9691980122932876e-05,
+          "k_neighbours": 11,
+          "n2v_dim": 64,
+          "optimiser": "adamw",
+          "scheduler": "cosine"
+        }
+      },
+      {
+        "number": 22,
+        "value": 0.7295778791952658,
+        "params": {
+          "hidden_dim": 128,
+          "dropout": 0.37414815772925325,
+          "lr": 0.0007812634833498691,
+          "weight_decay": 1.3895564854754182e-05,
+          "k_neighbours": 8,
+          "n2v_dim": 64,
+          "optimiser": "adamw",
+          "scheduler": "cosine"
+        }
+      },
+      {
+        "number": 23,
+        "value": 0.6895249939582893,
+        "params": {
+          "hidden_dim": 128,
+          "dropout": 0.3918453681649304,
+          "lr": 0.0007183383961486863,
+          "weight_decay": 1.371064628766965e-05,
+          "k_neighbours": 7,
+          "n2v_dim": 64,
+          "optimiser": "adamw",
+          "scheduler": "cosine"
+        }
+      },
+      {
+        "number": 24,
+        "value": 0.6976656858879936,
+        "params": {
+          "hidden_dim": 128,
+          "dropout": 0.3310294396557214,
+          "lr": 0.00027731032575243914,
+          "weight_decay": 2.9476084821113468e-05,
+          "k_neighbours": 8,
+          "n2v_dim": 64,
+          "optimiser": "adamw",
+          "scheduler": "cosine"
+        }
+      },
+      {
+        "number": 25,
+        "value": 0.684118808634725,
+        "params": {
+          "hidden_dim": 128,
+          "dropout": 0.2725255758330123,
+          "lr": 0.0009950286121905706,
+          "weight_decay": 1.4329573761754863e-05,
+          "k_neighbours": 13,
+          "n2v_dim": 64,
+          "optimiser": "adamw",
+          "scheduler": "cosine"
+        }
+      },
+      {
+        "number": 26,
+        "value": 0.7039633008032767,
+        "params": {
+          "hidden_dim": 128,
+          "dropout": 0.3800953188604057,
+          "lr": 0.0005431016779094863,
+          "weight_decay": 2.5495607400231375e-05,
+          "k_neighbours": 9,
+          "n2v_dim": 64,
+          "optimiser": "adamw",
+          "scheduler": "plateau"
+        }
+      },
+      {
+        "number": 27,
+        "value": 0.7004476883743248,
+        "params": {
+          "hidden_dim": 128,
+          "dropout": 0.38663558182612395,
+          "lr": 0.00031547253104865727,
+          "weight_decay": 2.4068476741882148e-05,
+          "k_neighbours": 9,
+          "n2v_dim": 64,
+          "optimiser": "adamw",
+          "scheduler": "plateau"
+        }
+      },
+      {
+        "number": 28,
+        "value": 0.6451605604856437,
+        "params": {
+          "hidden_dim": 128,
+          "dropout": 0.4601708788975735,
+          "lr": 0.00011066458861901487,
+          "weight_decay": 1.0299303826450773e-05,
+          "k_neighbours": 7,
+          "n2v_dim": 32,
+          "optimiser": "adamw",
+          "scheduler": "plateau"
+        }
+      },
+      {
+        "number": 29,
+        "value": 0.6797565129955008,
+        "params": {
+          "hidden_dim": 128,
+          "dropout": 0.3735374072008054,
+          "lr": 0.001160223238210812,
+          "weight_decay": 5.541019424512075e-05,
+          "k_neighbours": 10,
+          "n2v_dim": 16,
+          "optimiser": "adamw",
+          "scheduler": "plateau"
+        }
+      }
+    ]
+  }
+}

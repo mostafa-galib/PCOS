@@ -1,0 +1,23 @@
+{
+  "features": [
+    "Hb_gdl",
+    "Cycle_RI",
+    "Cycle_length_days",
+    "Marriage_yrs",
+    "Pregnant",
+    "Abortions",
+    "BetaHCG_I",
+    "FSH",
+    "TSH",
+    "HairGrowth",
+    "SkinDarkening",
+    "HairLoss",
+    "Pimples",
+    "RegExercise",
+    "Follicle_R",
+    "FSize_L",
+    "BG_16"
+  ],
+  "n": 17,
+  "cv_mcc_5fold": 0.7562199713070877
+}
